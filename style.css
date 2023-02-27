@@ -43,18 +43,16 @@ body{
 .container-text{
     color: rgb(67, 67, 67);
     font-size: 14px;
-    padding: 15px 0;
+    padding: 0 0 15px;
     margin-left: 28px;
 }
 
 .flex-container{
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
+    margin-left: 26px;
 }
 
-.flex-item{
-
-}
 
 .rounded-button{
     background-color: #262f38;
@@ -63,4 +61,17 @@ body{
     color: white;
     width: 40px;
     height: 40px;
+}
+
+
+
+.submit-button button{
+    width: 305px;
+    height: 40px;
+    margin-left: 28px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: orange;
+
 }
