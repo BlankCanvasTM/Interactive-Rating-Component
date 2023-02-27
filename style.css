@@ -8,3 +8,11 @@
 body{
     background-color: #141519;
 }
+
+.container{
+    background-color: #1f2630;
+    width: 400px;
+    height: 400px;
+    margin: 250px auto;
+    border-radius: 17px;
+}
