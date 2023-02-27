@@ -11,8 +11,38 @@ body{
 
 .container{
     background-color: #1f2630;
-    width: 400px;
-    height: 400px;
+    width: 360px;
+    height: 350px;
     margin: 250px auto;
     border-radius: 17px;
+}
+
+
+.icon{
+    color: orange;
+    background-color: #2d2c31;
+    border-radius: 50%;
+    font-size: 25px;
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 28px;
+
+}
+
+.header-text{
+    color: white;
+    font-size: 30px;
+    padding: 15px 0;
+    margin-left: 28px;
+}
+
+.container-text{
+    color: rgb(67, 67, 67);
+    font-size: 14px;
+    padding: 15px 0;
+    margin-left: 28px;
 }
